@@ -24,8 +24,8 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  binding.pry
   array.include?(cheese_types) do |cheese|
+    binding.pry
     if true
       return cheese
     end
